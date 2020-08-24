@@ -1,8 +1,4 @@
 ## What is Progressions?
-Have you ever arrived at a performance only to discover that the singer has decided to change the key at the last minute? Sure, you could sit down and transpose your prepared charts, but that takes time: time that you might not have available at that moment.
-
-And what about those folders of chord charts you have sitting on your shelf, taking up space? Surely there’s got to be a better system for storing all that sheet music.
-
 Progressions is an app for iPhone, iPod Touch and iPad, which allows you to store, organise and transpose simple chord charts, enabling you to use your device as a customised music display, or simply as a catalogue of the songs that you love to play.
 
 You only need a basic understanding of chords for this app to transform the way you store written music, making the app perfect for beginners and professional musicians alike.
