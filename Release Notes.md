@@ -1,21 +1,19 @@
-I've been hard at work bringing new (and old) features to Progressions, but while I work on that, here's a quick patch to fix some of the glaring issues in the latest release!
+I've been hard at work this week fixing up a bug that I know a number of users have been hitting still, where the "All Charts" list was showing up blank. I promised many of you I'd try and get an update out to fix the issue by the end of the week, and I think I might have JUST made it. It was a tricky bug, but I think I finally nailed it.
 
-- When opening the list of keys for transposing, the current key wasn't always displayed on screen. So now the list will automatically scroll to show the current key before being displayed, which just feels a little better.
+Thanks to everyone who helped me figure this out by emailing in. Y'all deserve some of the credit, too!
 
-- Charts with titles containing complex characters could cause problems with the sorting, and if they got out of order, the whole list would simply not display. Obviously, that's not ideal, so I dug into how this is done and improved it, fixing the problem with the missing list in the process.
+I also head that people were still struggling with how to open backup files now that Dropbox is no longer integrated into the app, so I made some sweet enhancements on that front.
 
-- When using the "Backup Now" option, the list of files wouldn't be properly updated to show the newly created file until you exited and reentered that screen. So I tweaked it to ensure it updates and also added an option to immediately export the file for good measure, because why not?
+Here's the low down:
 
-- The counts for "All Charts" and "Favorites" weren't updating as expected, especially noticeable when restoring from a backup (which would get a touch confusing). I've updated the code to more-or-less force a refresh, and looks like it's good to go again.
+- Non-English characters in chart titles were still futzing things up left and right, so I went deeper into the code to resolve the issue, and introduced some failsafe measures to ensure no more blank lists going forward.
 
-- The user guide wasn't being updated as intended, but a quick pass over the code has ensured that the downloaded copy is being properly stored. Now you're not stuck reading 4 year old articles like some kind of chump. I've also updated and reworked many of the articles, so that's a bonus right there.
+- Editing a chart's title and changing its order within the All Charts list could cause the wrong chart to be displayed once the edit screen was dismissed. A quick check in the code, and now it should all work as expected. No more getting lost!
 
-- Some of the card-like views were causing the iPhone status bar to act a little wiggy while opening and closing, so I decided to go with a permanent one to avoid weirdness, and to make those animations nice and smooth.
+- The screens for backups and imports in settings scored a new "Browse" option, which allows you to select a file to import from other apps that support Document Pickers, like Dropbox, iCloud and more.
 
-- A minor oversight on my part meant that the index that would appear on the side of certain lists of charts was missing, making those larger collections a bit of a pain to scroll through. Fear not, however, as it has returned, good as ever, and life can go back to normal once more.
+- On iOS 11, the Files app can now display files from Progression's document folder, which allows you to move files in to be opened from within Progressions later. This is more or less the same as the old File Sharing method, but much more convenient.
 
-- The way the URL scheme was being handled was resulting in a handful of odd behaviours and crashes. I've given this some thought and updated it to be a little more streamlined, so now it's smooth like a frog. A smooth frog.
+If you need help, or want to let me know how things are going with the update, you can shoot me an email as support@progressions.co, or tweet @progressionsapp. I'd love to hear from you, and I'm ready to help out if you need me!
 
-- There were a couple of layout-related issues in the chart toolbar with iOS 11, so I made some adjustments to how they're set up, avoiding the problems entirely… because that's how I roll.
-
-If you have suggestions, or need some help getting around the new version, you can email me at support@pgns.co, or hit up @progressionsapp on Twitter. I'd love to hear from you!
+Until next time!
