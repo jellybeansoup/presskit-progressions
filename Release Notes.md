@@ -1,34 +1,17 @@
-This is the super biggest update I've ever done. It contains lots of tweaks and oft-requested features and makes some steps towards a more customisable experience.
+I'm sure that most of you thought Progressions was out for the count. It's definitely true that it's been a long time, but don't give up hope just yet! Progressions v2.0 is here, with a small (but significant!) update to bring it in line with all the changes that iOS has seen over the past few years.
 
-Sadly, this version also removes iCloud support, due to several crucial issues. Transferring your data is still possible by using the backup feature, which has had several improvements made to it. If you have any concerns, please get in contact via the support email: progressions@jellystyle.com
+- The old look was getting pretty... well, OLD. This new version is redesigned to fit in with the rest of iOS, losing the dated textures and going with a darker, sleeker look that works great just as great on stage as it does in your living room.
 
-• Removed: iCloud Support
-• Added: Support for the iPhone 5.
-• Added: Dark theme! For when you want to stay out of the spotlight (usually caused by the glowing iPad).
-• Added: The keyboard for the chart editor now contains a selection of additional keys to make life easier.
-• Added: Preference for the automatic creation of backups (enabled by default).
-• Added: Ability to (optionally) send crash reports to the developer.
-• Added: Ability to edit title of set list by double-tapping the navigation bar.
-• Added: You can now read the Knowledge Base articles from within Settings.
-• Added: Full-screen mode on iPhone (removes navigation and status bars) by tapping the screen.
-• Added: The set list now displays chart keys as part of the list view.
-• Added: You can now preview some details about backup files before restoring from them.
-• Added: Backup files can be emailed directly from the preview screen to anywhere in the known universe.
-• Added: Progressions can now open backup files and plain text files from other apps, such as Mail, or Dropbox.
-• Added: Export charts in plain text format.
-• Changed: A whole bunch of interface improvements.
-• Changed: You can now see font-size changes as you make them on iPhone and iPod! No more guess work.
-• Changed: Add (+) button in chart list is smarter. Default action on tap; hold for more options.
-• Changed: Dropbox integration has been improved, so the device isn't constantly checking for updates unnecessarily.
-• Changed: Implemented an improved sharing menu for both charts and sets, with Dropbox integration!
-• Fixed: Rotating the device would cause the chart editor to go wonky and in some cases scroll completely out of view. NO MORE.
-• Fixed: Text file import would fail if the file wasn't UTF-8 encoded.
-• Fixed: Pressing return in text fields now performs an appropriate action.
-• Fixed: Text file import will now correctly parse major keys.
-• Fixed: Restored the disclosure arrows on the 'Sets' screen.
-• Fixed: The search bar would get overlaid by the vertical index.
-• Fixed: Cancelling while adding charts to a blank set will not delete the set.
-• Fixed: A bug would cause the chart display to jump around when paging between some charts.
-• Fixed: If the internet is offline, the "Back Up Now" button no longer offers to backup to Dropbox.
-• Fixed: The "Import" view doesn't get stuck on a loading throbber when the internet is offline.
-• Fixed: Importing a chart while in the Favourites set now automatically marks the chart as a favourite.
+- Improved support for additional screen sizes! Whether you use an iPad Pro, or one of the larger iPhones, this update should ensure maximum use of the screen to make things a whole lot easier for you!
+
+- Support for iOS's built-in sharing features has been improved, allowing more freedom with how you share your charts. PDFs, text files and links are all able to be shared with the built in share sheet, making it easier to get charts from one place to another.
+
+- Backup files should a little more solid now, as I resolved a bug that could cause charts to be missed when creating them.
+
+- The backlight slider now taps into the system control (which didn't exist the last time I updated the app, DANG) to dim the screen.
+
+- Dropbox integration has been removed, since the same behaviour can be achieved by using Export > Open In from the Dropbox app itself.
+
+- A whole bunch of small fixes and updates under the hood to help make this release the best yet (90% of the app has been rewritten and updated at this point).
+
+Stay tuned, because there'll be more updates in the near future! In the mean time, if you have suggestions or need assistance, you can email me at support@pgns.co, or hit up @progressionsapp on Twitter. I'd love to hear from you!
