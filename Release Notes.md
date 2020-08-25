@@ -1,19 +1,13 @@
-I've been hard at work this week fixing up a bug that I know a number of users have been hitting still, where the "All Charts" list was showing up blank. I promised many of you I'd try and get an update out to fix the issue by the end of the week, and I think I might have JUST made it. It was a tricky bug, but I think I finally nailed it.
+Hello again! I'm back with another update to patch up a few bugs and oddities. Thanks to everyone who's been getting in touch… your help has been instrumental. There's still more to patch up, but this takes care of the most notorious for the moment!
 
-Thanks to everyone who helped me figure this out by emailing in. Y'all deserve some of the credit, too!
+- List animations were acting all wiggy and could cause significant issues in certain cases, but I tracked down the underlying cause and made some changes which appear to have cleared things right up, and things are much smoother now.
 
-I also head that people were still struggling with how to open backup files now that Dropbox is no longer integrated into the app, so I made some sweet enhancements on that front.
+- The paging system for displaying charts wasn't quite hooked up the way it should have been, and in some cases would cause crashes if things didn't go how it expected. I went over it with a fine tooth comb to clear up any possible issues, and while I was at it, I improved some of its interactions with other UI. It's much nicer now.
 
-Here's the low down:
+- The chart selection screen for creating sets was crashing on opening, which was very very strange. I quickly fixed up the issue, so it should be good to go again.
 
-- Non-English characters in chart titles were still futzing things up left and right, so I went deeper into the code to resolve the issue, and introduced some failsafe measures to ensure no more blank lists going forward.
+- The backup system was doing more work than it really needed—attempting to create multiple automatic backups at once, which is unnecessary as heck—so I streamlined its code and ensured that things happen in sequence, which should mean future backups are more reliable, and will resolve the occasional crash that could occur if things went truly pear-shaped.
 
-- Editing a chart's title and changing its order within the All Charts list could cause the wrong chart to be displayed once the edit screen was dismissed. A quick check in the code, and now it should all work as expected. No more getting lost!
-
-- The screens for backups and imports in settings scored a new "Browse" option, which allows you to select a file to import from other apps that support Document Pickers, like Dropbox, iCloud and more.
-
-- On iOS 11, the Files app can now display files from Progression's document folder, which allows you to move files in to be opened from within Progressions later. This is more or less the same as the old File Sharing method, but much more convenient.
-
-If you need help, or want to let me know how things are going with the update, you can shoot me an email as support@progressions.co, or tweet @progressionsapp. I'd love to hear from you, and I'm ready to help out if you need me!
+If you fin that you need help, want to report problems, or just want to shoot compliments my way, you can totally do that! Hit me up by email at support@pgns.co or follow @progressionsapp on Twitter.
 
 Until next time!
