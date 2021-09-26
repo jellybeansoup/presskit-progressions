@@ -1,11 +1,13 @@
-It's been a long time coming, but I've given Progressions a little bit of love (I'll be real, needing to update the litany of App Store screenshots was holding me back). I've fixed some bugs and returned a feature that was removed when I rebuilt the app: iOS got dark mode, so in return, I give you light mode!
+Who ever would've thought that iOS 14 would break stuff? Not me, but I was wrong, as evidenced by this release focused (mostly) on fixing a fun new bug introduced by iOS 14.
 
-- When I rebuilt the app without including the choice between light and dark themes, I got a lot more email than I would've expected, so I felt like I needed to make it right by returning the feature. Choose between themes in Settings, or use the System option to dynamically change based on the Dark Mode option in iOS 13.
+- For the purposes of testing, the less versions of iOS that I need to support, the easier it is. As such, I've moved up the minimum supported version to iOS 13. This shouldn't affect too many people, but should significantly improve my ability to stay on top of bugs and introduce new features down the line.
 
-- There was a small issue causing huge problems on first launch, where the app would crash because it needed to update a back button that wasn't loaded up yet. Took care of it, no need to worry yourself any longer.
+- Something in iOS 14 changed the way that split views work (i.e. the thing that makes Progressions have a two column layout), which in turn caused the button used to hide the side column to straight up crash the app. Not ideal at all, so I dug in, changed a whole bunch of stuff, and made the columns behave as intended. No muss, no fuss.
 
-- The guide file wasn't being correctly included in the shipped app, which meant that if you tried to open the guide without internet, there'd be hell to pay. No one wants that, so I fixed it to make sure it doesn't happen again.
+- After like two years of ignoring them, I got an itch to get some shortcut intents implemented, so you can now search for charts, create them, and open them from actions in Apple's Shortcuts app, which is cool and good (and useful for automating parts of Progressions). There's a few more on the way, but this felt like a solid start.
 
-If you want to let me know about any issues, I'll be happy to hear from you. Either tweet at @progressionsapp, or send an email to support@pgns.co, and I'll do what I can to help out.
+- There was a few things broken with link-sharing for charts, so I reached in, rummaged about a bit, and got things working again. No big deal… most of the problems were on the server side, but I did attempt to make it a little more resilient.
 
-Until next time!
+Thanks for using Progressions! If you need help, I'm only an email away! Hit up support@pgns.co or tweet @progressionsapp, and I'll do what I can to help!
+
+Until next time: stay safe, stay warm, and tell someone you care about that you love them.
