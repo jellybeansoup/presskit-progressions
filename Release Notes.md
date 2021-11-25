@@ -1,9 +1,11 @@
-A small but important update today… well, small on the surface, but rather huge under the hood. Definitely important, either way.
+I had a few people write in to tell me about the stuff that they've been dealing with in Progressions recently, so here's an update dedicated to them. I really appreciate it when I hear from people using the app, even if it's because of a bug.
 
-- A while back, a user discovered that some less common chords weren't transposing correctly, setting me on a path that I'd been considering for a long while: ripping out and re-implementing the core logic for finding chords in plain text. It was no small task, but has definitely made my life infinitely easier, improved the range of chords it can handle, and significantly reduced false positives. I haven't even gotten to the part where I'm making full use of the new capabilities for rendering charts yet, and I'm already impressed, so I hope you are too!
+- Despite being a fairly rudimentary thing, the ability to rename sets has been something that Progressions has lacked for a long while. Too long. So when I got asked to add the feature again recently, I took the opportunity to dig in and provide a way to do it: tap the edit button on the list, and then edit the name right there in the navigation bar. No muss, no fuss.
 
-- The search bar in the chart list has been looking more and more out-of-date as iOS versions progressed, so I updated it to be more at home with search bars in other parts of iOS.
+- If transposition involved changing a natural chord to a flat or a sharp, bass notes were getting updated twice. The number of characters in the chart's text would change, and the way that the code for transposing charts to know where it up to would get out of alignment. The good news is that someone spotted it, let me know, and I dug in to find the cause and rooted it out. Problem solved.
 
-Thanks for using Progressions! If you need help or have suggestions, toss an email to support@pgns.co or tweet @progressionsapp, and I'll do what I can!
+- I've also seen a bunch of crashes happening during transposition, so I went through it and did what I could to stop the crashes from happening by making sure it didn't try to mess with strings outside of their bounds. Between this and the last fix, transposition should be back to being rock solid again… I just hope saying so doesn't jinx it.
+
+Thanks for using Progressions! I love to hear from you all, so if you need help or have suggestions, toss an email to support@pgns.co or tweet @progressionsapp, and I'll do what I can!
 
 Until next time!
