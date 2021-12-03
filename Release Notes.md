@@ -1,11 +1,11 @@
-I had a few people write in to tell me about the stuff that they've been dealing with in Progressions recently, so here's an update dedicated to them. I really appreciate it when I hear from people using the app, even if it's because of a bug.
+The last release introduced a couple of awkward bugs that ranged from being slightly annoying to making the app unusable. Because I know how frustrating these things can be, I put a rush on getting an update out the door to resolve the issues I know about. If there's anything else… please let me know, and I'll do what I can.
 
-- Despite being a fairly rudimentary thing, the ability to rename sets has been something that Progressions has lacked for a long while. Too long. So when I got asked to add the feature again recently, I took the opportunity to dig in and provide a way to do it: tap the edit button on the list, and then edit the name right there in the navigation bar. No muss, no fuss.
+- I inadvertently discovered that there are people still using Progressions on iOS 13 when the last release introduced an issue that caused them to experience a black screen upon loading the app. The good news is that I was able to fix it, the bad news is that Progressions' support for iOS 13 is not long for this world, so it might be worth updating to the latest iOS anyway.
 
-- If transposition involved changing a natural chord to a flat or a sharp, bass notes were getting updated twice. The number of characters in the chart's text would change, and the way that the code for transposing charts to know where it up to would get out of alignment. The good news is that someone spotted it, let me know, and I dug in to find the cause and rooted it out. Problem solved.
+- Progressions' ability to track the system dark mode setting and serve up the appropriate theme was on its last legs due to system-level changes, so when I switched over to scene-based UI architecture in the last release, I basically ripped the carpet out from underneath it and broke the thing. A couple of adjustments and it's back up and running again. Phew!
 
-- I've also seen a bunch of crashes happening during transposition, so I went through it and did what I could to stop the crashes from happening by making sure it didn't try to mess with strings outside of their bounds. Between this and the last fix, transposition should be back to being rock solid again… I just hope saying so doesn't jinx it.
+- Another issue that showed up in the recent update was the fact that Progressions couldn't process external files or links, which isn't awesome when that's how a lot of stuff gets shared around. I'm working on better solutions for this, but I also dug in and sorted out the problem because I don't like leaving things broken. It bothers me.
 
-Thanks for using Progressions! I love to hear from you all, so if you need help or have suggestions, toss an email to support@pgns.co or tweet @progressionsapp, and I'll do what I can!
+Thanks for using Progressions! Once again, if you need help or have suggestions, toss an email to support@pgns.co or tweet @progressionsapp, and I'll do what I can!
 
 Until next time!
