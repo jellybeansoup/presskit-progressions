@@ -1,11 +1,7 @@
-The last release introduced a couple of awkward bugs that ranged from being slightly annoying to making the app unusable. Because I know how frustrating these things can be, I put a rush on getting an update out the door to resolve the issues I know about. If there's anything else… please let me know, and I'll do what I can.
+Hello again! Just popping in with a much-requested feature addition, and a quality of life improvement for yours truly. 
 
-- I inadvertently discovered that there are people still using Progressions on iOS 13 when the last release introduced an issue that caused them to experience a black screen upon loading the app. The good news is that I was able to fix it, the bad news is that Progressions' support for iOS 13 is not long for this world, so it might be worth updating to the latest iOS anyway.
+- Every few months, someone emails me to ask about support for page turners, and because I've never been able to track down any details on how they work, I've never managed to give a satisfactory response. Until now. I spent some time significantly improving Progressions' keyboard navigation, and so with that comes support for page turners that work by sending keyboard shortcuts. Sorry I'm so late to this particular party, everyone.
 
-- Progressions' ability to track the system dark mode setting and serve up the appropriate theme was on its last legs due to system-level changes, so when I switched over to scene-based UI architecture in the last release, I basically ripped the carpet out from underneath it and broke the thing. A couple of adjustments and it's back up and running again. Phew!
+- I recently made changes to the way I collect crashes analytics in my other app (GIFwrapped), and given it's incredible success both in how useful the new services are, and how much more privacy-focused they allow me to be, I've made the change in Progressions as well. This update comes with the requisite changes to the Progressions' privacy policy, so be sure to check in on that if you're curious.
 
-- Another issue that showed up in the recent update was the fact that Progressions couldn't process external files or links, which isn't awesome when that's how a lot of stuff gets shared around. I'm working on better solutions for this, but I also dug in and sorted out the problem because I don't like leaving things broken. It bothers me.
-
-Thanks for using Progressions! Once again, if you need help or have suggestions, toss an email to support@pgns.co or tweet @progressionsapp, and I'll do what I can!
-
-Until next time!
+Thanks so much for using Progressions! If you have anything you'd like to mention to me, the best thing you can do is reach out: send an email to support@pgns.co or hit up @progressionsapp on Twitter. I want Progressions to be the best it can be, so I'm always happy to hear from you!
